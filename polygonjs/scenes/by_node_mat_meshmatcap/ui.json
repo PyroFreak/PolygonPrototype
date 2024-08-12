@@ -1,0 +1,115 @@
+{
+	"nodes": {
+		"geo1": {
+			"pos": [-50, -150],
+			"nodes": {
+				"COP": {
+					"pos": [-350, 400],
+					"comment": "enter into this node to see how the matcap textures are loaded",
+					"nodes": {
+						"image1": {
+							"pos": [-350, 0],
+							"comment": "Each of those node loads a single texture.\\n\\nWhen selecting a node, you can use the preset dropdown menu to fetch another matcap texture."
+						},
+						"image2": {
+							"pos": [-350, 250]
+						},
+						"image3": {
+							"pos": [-350, 400]
+						},
+						"image4": {
+							"pos": [-350, 550]
+						},
+						"image5": {
+							"pos": [-350, 700]
+						}
+					}
+				},
+				"MAT": {
+					"pos": [-350, 250],
+					"comment": "Enter this node to see how the materials are set up.",
+					"nodes": {
+						"meshMatcap1": {
+							"pos": [0, -50]
+						},
+						"meshMatcap2": {
+							"pos": [0, 100]
+						},
+						"meshMatcap3": {
+							"pos": [0, 250]
+						},
+						"meshMatcap4": {
+							"pos": [0, 400]
+						},
+						"meshMatcap5": {
+							"pos": [0, 550]
+						}
+					}
+				},
+				"fileOBJ1": {
+					"pos": [450, -400]
+				},
+				"hierarchy1": {
+					"pos": [450, -250]
+				},
+				"material1": {
+					"pos": [50, 450],
+					"comment": "the sop/material nodes assign a material to the input object."
+				},
+				"material2": {
+					"pos": [250, 450]
+				},
+				"material3": {
+					"pos": [450, 450]
+				},
+				"material4": {
+					"pos": [650, 450]
+				},
+				"material5": {
+					"pos": [850, 450]
+				},
+				"merge1": {
+					"pos": [450, 800],
+					"comment": "Here we are merging 5 copies of the same object, which is imported from the file node at  the top.\\n\\nThen using the material nodes, each object is assigned a different material. "
+				},
+				"objectProperties1": {
+					"pos": [450, -50]
+				},
+				"transform1": {
+					"pos": [450, -150]
+				},
+				"transform2": {
+					"pos": [50, 200]
+				},
+				"transform3": {
+					"pos": [250, 200]
+				},
+				"transform4": {
+					"pos": [450, 200]
+				},
+				"transform5": {
+					"pos": [650, 200]
+				},
+				"transform6": {
+					"pos": [850, 200]
+				}
+			}
+		},
+		"perspectiveCamera1": {
+			"pos": [-250, 100],
+			"nodes": {
+				"events1": {
+					"pos": [-200, 50],
+					"nodes": {
+						"cameraOrbitControls1": {
+							"pos": [150, 50]
+						}
+					}
+				}
+			}
+		},
+		"hemisphereLight1": {
+			"pos": [150, 100]
+		}
+	}
+}

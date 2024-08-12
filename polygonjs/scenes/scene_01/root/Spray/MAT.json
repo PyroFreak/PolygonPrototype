@@ -1,0 +1,19 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"ThreadMaterial": {
+			"type": "meshPhysical",
+			"params": {
+				"color": [0.08437621153575764, 0.08437621153575764, 0.08437621153575764],
+				"opacity": 0.86,
+				"roughness": 0.41,
+				"sheen": 0.53,
+				"sheenRoughness": 0.31,
+				"ior": 1.146663,
+				"thickness": 1.2,
+				"attenuationDistance": 1.4201,
+				"premultipliedAlpha": true
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"CapMaterial": {
+			"type": "meshPhysical",
+			"params": {
+				"color": [0.8879231178794775, 0.8879231178794775, 0.8879231178794775],
+				"map": "../../../COP/imageEnv",
+				"useEnvMap": 1,
+				"envMap": "../../../COP/envMap",
+				"lightMap": "../../../COP/imageEnv",
+				"roughness": 0.17,
+				"sheen": 0.53,
+				"sheenRoughness": 0.31,
+				"iridescence": 1.5,
+				"iridescenceIOR": 3.52,
+				"transmission": 0.98,
+				"ior": 1.013333,
+				"thickness": 0.1,
+				"attenuationDistance": 0.2801,
+				"attenuationColor": [0.4178850708380236, 0.4178850708380236, 0.4178850708380236],
+				"doubleSided": 1,
+				"overrideShadowSide": 1,
+				"shadowDoubleSided": 1,
+				"premultipliedAlpha": 1,
+				"blending": 0
+			}
+		}
+	}
+}

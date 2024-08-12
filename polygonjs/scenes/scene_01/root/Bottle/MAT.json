@@ -1,0 +1,29 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"BottleMaterial1": {
+			"type": "meshPhysical",
+			"params": {
+				"transparent": 1,
+				"map": "../../../COP/imageEnv",
+				"useEnvMap": 1,
+				"envMap": "../../../COP/envMap",
+				"lightMap": "../../../COP/imageEnv",
+				"roughness": 0.12,
+				"sheen": 0.53,
+				"sheenRoughness": 0.31,
+				"iridescence": 1.5,
+				"iridescenceIOR": 3.52,
+				"transmission": 1,
+				"ior": 1.26666,
+				"thickness": 1.6,
+				"attenuationDistance": 0.2801,
+				"attenuationColor": [0.15292615198613213, 0.1499597898006365, 0.3371636150376657],
+				"overrideShadowSide": 1,
+				"shadowDoubleSided": 1,
+				"premultipliedAlpha": 1,
+				"blending": 0
+			}
+		}
+	}
+}

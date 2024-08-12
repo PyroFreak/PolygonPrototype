@@ -1,0 +1,26 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"LabelMaterial": {
+			"type": "meshPhysical",
+			"params": {
+				"useMap": 1,
+				"map": "../../../COP/ColorLabel",
+				"useEnvMap": 1,
+				"envMap": "../../../COP/envMap",
+				"useMetalnessMap": 1,
+				"metalnessMap": "../../../COP/Metalness",
+				"metalness": 1,
+				"useRoughnessMap": 1,
+				"roughnessMap": "../../../COP/Roughness",
+				"roughness": 0.8,
+				"sheen": 0.53,
+				"sheenRoughness": 0.31,
+				"ior": 1.119997,
+				"thickness": 0.9,
+				"attenuationDistance": 1.4201,
+				"premultipliedAlpha": true
+			}
+		}
+	}
+}

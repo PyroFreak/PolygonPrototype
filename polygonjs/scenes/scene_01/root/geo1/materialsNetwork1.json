@@ -1,0 +1,17 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"meshPhysical1": {
+			"type": "meshPhysical",
+			"params": {
+				"color": [0.7379104087672317, 0.05612849004241121, 0.05612849004241121],
+				"transparent": true,
+				"opacity": 0.45,
+				"ior": 1.159996,
+				"thickness": 0.1,
+				"attenuationDistance": 2.3501,
+				"premultipliedAlpha": true
+			}
+		}
+	}
+}

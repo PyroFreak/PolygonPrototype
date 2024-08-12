@@ -1,0 +1,56 @@
+{
+	"type": "copNetwork",
+	"nodes": {
+		"envMap": {
+			"type": "envMap",
+			"inputs": ["imageEnv"]
+		},
+		"imageEnv": {
+			"type": "imageEXR",
+			"params": {
+				"url": "textures/studio_small_09_1k.exr?timestamp=-1",
+				"tminFilter": 1,
+				"tmagFilter": 1,
+				"tanisotropy": 1,
+				"useRendererMaxAnisotropy": 1,
+				"offset": [3, 0]
+			}
+		},
+		"CartoonShadowMatcap": {
+			"type": "image",
+			"params": {
+				"url": "/polygonjs/scenes/by_node_mat_meshmatcap/MatCapCartoonShadow.png?timestamp=1723215596428",
+				"tcolorSpace": 1,
+				"colorSpace": "srgb",
+				"tminFilter": 1,
+				"tmagFilter": 1,
+				"tanisotropy": 1,
+				"useRendererMaxAnisotropy": 1
+			}
+		},
+		"ColorLabel": {
+			"type": "image",
+			"params": {
+				"url": "/polygonjs/scenes/by_node_mat_meshmatcap/Tex/Color.jpg?timestamp=1723219383872",
+				"tflipY": 1,
+				"flipY": 1
+			}
+		},
+		"Metalness": {
+			"type": "image",
+			"params": {
+				"url": "/polygonjs/scenes/by_node_mat_meshmatcap/Tex/Metalness.jpg?timestamp=1723219404130",
+				"tflipY": 1,
+				"flipY": 1
+			}
+		},
+		"Roughness": {
+			"type": "image",
+			"params": {
+				"url": "/polygonjs/scenes/by_node_mat_meshmatcap/Tex/Roughness.jpg?timestamp=1723219416908",
+				"tflipY": 1,
+				"flipY": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "renderersNetwork",
+	"nodes": {
+		"CSS2DRenderer1": {
+			"type": "CSS2DRenderer",
+			"params": {
+				"css": ".CSS2DObject {\n\tcolor: white;\n\tbackground-color: black;\n\tpadding: 5px 10px;\n\tborder: 1px solid blue;\n\tborder-radius: 5px;\n}"
+			}
+		}
+	}
+}

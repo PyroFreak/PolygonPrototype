@@ -1,0 +1,53 @@
+{
+	"nodes": {
+		"hemisphereLight1": {
+			"pos": [150, 100]
+		},
+		"grid": {
+			"pos": [-50, -250],
+			"nodes": {
+				"planeHelper1": {
+					"pos": [0, 0]
+				}
+			}
+		},
+		"perspectiveCamera1": {
+			"pos": [-200, 100],
+			"comment": "In order to add HTML element to your 3D experiences, you need 2 things:\\n\\n- a CSS2DObject, which in this case is created inside the [HTMLElement](../HTMLElement) node.\\n\\n- a CSS2DRenderer on the camera. When the camera is at the obj level like in this scene, it is added via its `CSSRenderer` parameter, from its `render` tab. You can see [how the node is setup](/perspectiveCamera1/ROP/CSS2DRenderer1)",
+			"nodes": {
+				"ROP": {
+					"pos": [-200, 150],
+					"nodes": {
+						"CSS2DRenderer1": {
+							"pos": [-50, -50],
+							"comment": "With this node, you can set the CSS rules that will be added to your page. In this case, it updates the `.CSS2DObject` class, which is used by the [CSS2DObject](/HTMLElement/CSS2DObject1)"
+						}
+					}
+				},
+				"events1": {
+					"pos": [-200, 50],
+					"nodes": {
+						"cameraOrbitControls1": {
+							"pos": [150, 50]
+						}
+					}
+				}
+			}
+		},
+		"HTMLElement": {
+			"pos": [-50, -150],
+			"comment": "[Enter this node](.) to see how it is setup",
+			"selection": ["CSS2DObject1"],
+			"nodes": {
+				"CSS2DObject1": {
+					"pos": [0, 250],
+					"comment": "This node is what creates the HTML elements inside your 3D experiences. Note that for it to be visible, it needs a [CSSRenderer](/perspectiveCamera1/ROP/CSS2DRenderer1) node added to the camera.\\n\\nAnd you can change the html `content`, `id`, `class`3"
+				},
+				"transform1": {
+					"pos": [0, 600],
+					"comment": "Here we are simply transforming the CSS2DObject\\n"
+				}
+			}
+		}
+	}
+}

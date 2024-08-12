@@ -1,0 +1,248 @@
+{
+	"nodes": {
+		"ground": {
+			"pos": [-50, -450],
+			"nodes": {
+				"planeHelper1": {
+					"pos": [-200, 200]
+				}
+			}
+		},
+		"COP": {
+			"pos": [-300, -50],
+			"selection": ["envMap"],
+			"nodes": {
+				"envMap": {
+					"pos": [50, 250]
+				},
+				"imageEnv": {
+					"pos": [50, 100]
+				},
+				"CartoonShadowMatcap": {
+					"pos": [-450, -50]
+				},
+				"ColorLabel": {
+					"pos": [-600, 150]
+				},
+				"Metalness": {
+					"pos": [-600, 250]
+				},
+				"Roughness": {
+					"pos": [-600, 350]
+				}
+			}
+		},
+		"lights": {
+			"pos": [-50, -250],
+			"selection": ["polarTransform1"],
+			"nodes": {
+				"merge1": {
+					"pos": [100, 300]
+				},
+				"spotLight1": {
+					"pos": [300, -50]
+				},
+				"polarTransform1": {
+					"pos": [300, 150]
+				}
+			}
+		},
+		"cameras": {
+			"pos": [-50, -150],
+			"selection": ["cameraControls1"],
+			"nodes": {
+				"perspectiveCamera1": {
+					"pos": [0, -50]
+				},
+				"cameraControls1": {
+					"pos": [0, 150],
+					"selection": ["cameraOrbitControls1"],
+					"nodes": {
+						"cameraOrbitControls1": {
+							"pos": [0, 0]
+						}
+					}
+				}
+			}
+		},
+		"Bottle": {
+			"pos": [-50, -350],
+			"nodes": {
+				"ParentRemove": {
+					"pos": [-500, 700]
+				},
+				"Hidrolati_OBJ": {
+					"pos": [-500, 600]
+				},
+				"transform1": {
+					"pos": [-500, 800]
+				},
+				"BottleMat": {
+					"pos": [-500, 950]
+				},
+				"MAT": {
+					"pos": [-800, 800],
+					"selection": ["BottleMaterial1"],
+					"nodes": {
+						"BottleMaterial1": {
+							"pos": [-1000, -250]
+						}
+					}
+				}
+			}
+		},
+		"geo1": {
+			"pos": [-200, -350],
+			"nodes": {
+				"NozzleMat": {
+					"pos": [-500, 900]
+				},
+				"ParentRemove": {
+					"pos": [-500, 700]
+				},
+				"Hidrolati_OBJ": {
+					"pos": [-500, 600]
+				},
+				"transform1": {
+					"pos": [-500, 800]
+				},
+				"materialsNetwork1": {
+					"pos": [-800, 800],
+					"nodes": {
+						"meshPhysical1": {
+							"pos": [-650, -250]
+						}
+					}
+				}
+			}
+		},
+		"Thread": {
+			"pos": [100, -350],
+			"nodes": {
+				"ParentRemove": {
+					"pos": [-500, 700]
+				},
+				"Hidrolati_OBJ": {
+					"pos": [-500, 600]
+				},
+				"transform1": {
+					"pos": [-500, 800]
+				},
+				"ThreadMaterial": {
+					"pos": [-500, 950]
+				},
+				"MAT": {
+					"pos": [-800, 800],
+					"nodes": {
+						"ThreadMaterial": {
+							"pos": [-650, -250]
+						}
+					}
+				}
+			}
+		},
+		"Spray": {
+			"pos": [250, -350],
+			"selection": ["Hidrolati_OBJ"],
+			"nodes": {
+				"ParentRemove": {
+					"pos": [-500, 700]
+				},
+				"Hidrolati_OBJ": {
+					"pos": [-500, 600]
+				},
+				"transform1": {
+					"pos": [-500, 800]
+				},
+				"ThreadMaterial": {
+					"pos": [-500, 950]
+				},
+				"MAT": {
+					"pos": [-800, 800],
+					"nodes": {
+						"ThreadMaterial": {
+							"pos": [-650, -250]
+						}
+					}
+				}
+			}
+		},
+		"Nozzle": {
+			"pos": [400, -350],
+			"nodes": {
+				"ParentRemove": {
+					"pos": [-500, 700]
+				},
+				"Hidrolati_OBJ": {
+					"pos": [-500, 600]
+				},
+				"transform1": {
+					"pos": [-500, 800]
+				},
+				"ThreadMaterial": {
+					"pos": [-500, 950]
+				},
+				"MAT": {
+					"pos": [-800, 800],
+					"nodes": {
+						"NozzleMaterial": {
+							"pos": [-650, -250]
+						}
+					}
+				}
+			}
+		},
+		"Cap": {
+			"pos": [550, -350],
+			"selection": ["ThreadMaterial"],
+			"nodes": {
+				"ParentRemove": {
+					"pos": [-500, 700]
+				},
+				"Hidrolati_OBJ": {
+					"pos": [-500, 600]
+				},
+				"transform1": {
+					"pos": [-500, 800]
+				},
+				"ThreadMaterial": {
+					"pos": [-500, 950]
+				},
+				"MAT": {
+					"pos": [-800, 800],
+					"selection": ["CapMaterial"],
+					"nodes": {
+						"CapMaterial": {
+							"pos": [-650, -250]
+						}
+					}
+				}
+			}
+		},
+		"Label": {
+			"pos": [700, -350],
+			"nodes": {
+				"ParentRemove": {
+					"pos": [-500, 700]
+				},
+				"Hidrolati_OBJ": {
+					"pos": [-500, 600]
+				},
+				"transform1": {
+					"pos": [-500, 800]
+				},
+				"ThreadMaterial": {
+					"pos": [-500, 950]
+				},
+				"MAT": {
+					"pos": [-800, 800],
+					"nodes": {
+						"LabelMaterial": {
+							"pos": [-650, -250]
+						}
+					}
+				}
+			}
+		}
+	}
+}

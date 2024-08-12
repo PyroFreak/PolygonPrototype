@@ -1,0 +1,182 @@
+{
+	"multiple_panel": {
+		"split_ratio": 0.4765625,
+		"split_panel0": {
+			"panelTypes": ["network", "viewer", "params"],
+			"currentPanelIndex": 1,
+			"panel_data": {
+				"camera": "/cameras/cameras:sopGroup/perspectiveCamera1",
+				"isViewerInitLayoutData": true,
+				"linkIndex": 1,
+				"overlayedNetwork": {
+					"allowed": false,
+					"displayed": false
+				}
+			}
+		},
+		"split_panel1": {
+			"split_ratio": 0.5365126676602087,
+			"split_panel0": {
+				"panelTypes": ["network", "params"],
+				"currentPanelIndex": 0,
+				"panel_data": {
+					"camera": {
+						"position": {
+							"x": -301.8511152584268,
+							"y": 295.4816514382019
+						},
+						"zoom": 0.7536114074751485
+					},
+					"history": {
+						"2": {
+							"position": {
+								"x": -301.8511152584268,
+								"y": 295.4816514382019
+							},
+							"zoom": 0.7536114074751485
+						},
+						"206": {
+							"position": {
+								"x": -9.952039339325886,
+								"y": -175.12772572134838
+							},
+							"zoom": 0.9303844536730231
+						},
+						"209": {
+							"position": {
+								"x": -300,
+								"y": 50
+							},
+							"zoom": 0.5493827160493833
+						},
+						"1963": {
+							"position": {
+								"x": 500,
+								"y": -950
+							},
+							"zoom": 1.0337605040811364
+						},
+						"2087": {
+							"position": {
+								"x": 650,
+								"y": 250
+							},
+							"zoom": 1.0337605040811364
+						},
+						"3110": {
+							"position": {
+								"x": 650,
+								"y": -750
+							},
+							"zoom": 0.7536114074751485
+						},
+						"4123": {
+							"position": {
+								"x": 500,
+								"y": -600
+							},
+							"zoom": 0.7536114074751485
+						},
+						"4252": {
+							"position": {
+								"x": 650,
+								"y": 250
+							},
+							"zoom": 0.7536114074751485
+						},
+						"4386": {
+							"position": {
+								"x": 405.2624626292137,
+								"y": -791.444814764045
+							},
+							"zoom": 1.0337605040811364
+						},
+						"4515": {
+							"position": {
+								"x": 650,
+								"y": 250
+							},
+							"zoom": 1.0327605040811365
+						},
+						"4649": {
+							"position": {
+								"x": 500,
+								"y": -600
+							},
+							"zoom": 0.5493827160493833
+						},
+						"4778": {
+							"position": {
+								"x": 650,
+								"y": 250
+							},
+							"zoom": 1.575614241855109
+						}
+					},
+					"paramsDisplayed": false,
+					"linkIndex": 1
+				}
+			},
+			"split_panel1": {
+				"panelTypes": ["network", "params"],
+				"currentPanelIndex": 1,
+				"panel_data": {
+					"active_folder": null,
+					"linkIndex": 1
+				}
+			},
+			"split_mode": "vertical"
+		},
+		"split_mode": "horizontal"
+	},
+	"currentNodes": ["/", "/", "/", "/", "/", "/", "/", "/"],
+	"navigationHistory": {
+		"nodePaths": {
+			"1": [
+				"/",
+				"/Label",
+				"/Label/MAT",
+				"/",
+				"/COP",
+				"/",
+				"/lights",
+				"/",
+				"/geo1",
+				"/",
+				"/geo1",
+				"/",
+				"/Nozzle",
+				"/Nozzle/MAT",
+				"/Nozzle",
+				"/",
+				"/Bottle",
+				"/Bottle/MAT",
+				"/Bottle",
+				"/"
+			],
+			"2": ["/"],
+			"3": ["/"],
+			"4": ["/"],
+			"5": ["/"],
+			"6": ["/"],
+			"7": ["/"],
+			"8": ["/"]
+		},
+		"index": {
+			"1": 19,
+			"2": 0,
+			"3": 0,
+			"4": 0,
+			"5": 0,
+			"6": 0,
+			"7": 0,
+			"8": 0
+		}
+	},
+	"fullscreenPanelId": null,
+	"saveOptions": {
+		"checkRemoteAssetsUse": true,
+		"minimizeFilesCount": false
+	},
+	"paramsModal": []
+}

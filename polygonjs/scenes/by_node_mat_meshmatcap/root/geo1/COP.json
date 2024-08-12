@@ -1,0 +1,45 @@
+{
+	"type": "copNetwork",
+	"nodes": {
+		"image1": {
+			"type": "image",
+			"params": {
+				"url": "https://makio135.com/matcaps/512/346088_6ABED7_56A0C5_4E91B8-512px.png",
+				"tanisotropy": true,
+				"useRendererMaxAnisotropy": true
+			}
+		},
+		"image2": {
+			"type": "image",
+			"params": {
+				"url": "https://makio135.com/matcaps/512/2D2D2F_C6C2C5_727176_94949B-512px.png",
+				"tanisotropy": true,
+				"useRendererMaxAnisotropy": true
+			}
+		},
+		"image3": {
+			"type": "image",
+			"params": {
+				"url": "https://makio135.com/matcaps/512/593E2C_E5D8A9_BC9F79_9F8A68-512px.png",
+				"tanisotropy": true,
+				"useRendererMaxAnisotropy": true
+			}
+		},
+		"image4": {
+			"type": "image",
+			"params": {
+				"url": "https://makio135.com/matcaps/512/BC5B43_95170B_EEAC92_DB8C7C-512px.png",
+				"tanisotropy": true,
+				"useRendererMaxAnisotropy": true
+			}
+		},
+		"image5": {
+			"type": "image",
+			"params": {
+				"url": "https://makio135.com/matcaps/512/9B9994_E1E0DB_474643_544C4C-512px.png",
+				"tanisotropy": true,
+				"useRendererMaxAnisotropy": true
+			}
+		}
+	}
+}

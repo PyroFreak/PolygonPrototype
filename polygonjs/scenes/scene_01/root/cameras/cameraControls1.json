@@ -1,0 +1,26 @@
+{
+	"type": "cameraControls",
+	"nodes": {
+		"cameraOrbitControls1": {
+			"type": "cameraOrbitControls",
+			"params": {
+				"zoomSpeed": 0.92,
+				"zoomToCursor": 0,
+				"damping": 0.06,
+				"rotateSpeed": 0.7,
+				"maxDistance": 44,
+				"minZoom": 2.0098,
+				"maxZoom": 7,
+				"updateTargetEndMoveEnd": 0,
+				"target": [0, 1.9345424652099608, 0]
+			}
+		}
+	},
+	"params": {
+		"node": "cameraOrbitControls1"
+	},
+	"inputs": ["perspectiveCamera1"],
+	"flags": {
+		"display": true
+	}
+}

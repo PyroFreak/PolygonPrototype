@@ -1,0 +1,11 @@
+{
+	"type": "eventsNetwork",
+	"nodes": {
+		"cameraOrbitControls1": {
+			"type": "cameraOrbitControls",
+			"params": {
+				"target": [-0.0019975972039125304, 0.5017383128930296, -0.001698771209347175]
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"type": "materialsNetwork",
+	"nodes": {
+		"meshMatcap1": {
+			"type": "meshMatcap",
+			"params": {
+				"useMatcapMap": true,
+				"matcapMap": "../../COP/image1"
+			}
+		},
+		"meshMatcap2": {
+			"type": "meshMatcap",
+			"params": {
+				"useMatcapMap": true,
+				"matcapMap": "../../COP/image2"
+			}
+		},
+		"meshMatcap3": {
+			"type": "meshMatcap",
+			"params": {
+				"useMatcapMap": true,
+				"matcapMap": "../../COP/image3"
+			}
+		},
+		"meshMatcap4": {
+			"type": "meshMatcap",
+			"params": {
+				"useMatcapMap": true,
+				"matcapMap": "../../COP/image4"
+			}
+		},
+		"meshMatcap5": {
+			"type": "meshMatcap",
+			"params": {
+				"useMatcapMap": true,
+				"matcapMap": "../../COP/image5"
+			}
+		}
+	}
+}
